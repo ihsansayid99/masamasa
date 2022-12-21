@@ -1,7 +1,6 @@
 import Image from "next/image";
-import heroImage from "../../public/images/HERO-IMAGE.jpg";
 
-export const Hero = () => {
+export const Hero = ({heroImage}) => {
   return (
     <section className="hero py-4">
       <div className="w-full h-[300px] lg:h-[800px]">

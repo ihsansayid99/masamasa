@@ -1,9 +1,8 @@
 import Image from "next/image";
 import { WaveSine } from "phosphor-react";
 import React from "react";
-import data from "../../utils/wedding.json";
 
-export const Wedding = () => {
+export const Wedding = ({data}) => {
   return (
     <>
       <section>

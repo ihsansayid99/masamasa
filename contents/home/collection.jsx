@@ -1,10 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import preWedding from "../../public/images/masamasa-prewedding.jpg";
-import portrait from "../../public/images/masamasa-portrait.jpg";
-import wedding from "../../public/images/masamasa-wedding.jpg";
 
-export const Collection = () => {
+export const Collection = ({preWedding, wedding, portrait}) => {
   return (
     <section className="my-4">
       <h1 className="text-center text-2xl lg:text-4xl font-bold">

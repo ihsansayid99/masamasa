@@ -49,6 +49,7 @@ class MyDocument extends Document {
             <meta name="robots" content="index, follow" />
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="Indonesia" />
+            <script async src="https://cdn.splitbee.io/sb.js"></script>
         </Head>
         <body>
           <Main />
